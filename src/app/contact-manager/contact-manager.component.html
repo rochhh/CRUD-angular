@@ -1,0 +1,61 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col">
+            <p class="h3"> Contact Application </p>
+            <a routerLink="/contacts/add" class="btn btn-success btn-sm"> Add New Contact </a>
+            <p class="fst-italic mt-3 " >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non similique perspiciatis architecto eligendi natus quidem optio accusantium excepturi dolorem unde, suscipit vitae et veniam cupiditate, ab corporis iste amet.
+                Veritatis, in? Cumque quas fugiat cum molestiae illo ipsum magni placeat vero error aliquam, consequatur officiis nesciunt, maiores distinctio at dignissimos velit magnam. Repudiandae, rem? Distinctio qui ut placeat inventore!
+                Nulla enim et maiores nostrum animi nesciunt expedita dolor fuga quos at aspernatur ducimus accusamus nemo, a omnis voluptates magnam maxime. Qui reiciendis autem quo rem perspiciatis veniam, laborum libero!
+                Dolores nemo quisquam reiciendis excepturi vero nam voluptatum eos quia a amet. Ducimus vero aspernatur tenetur. In et, numquam deserunt voluptatum recusandae libero doloribus error ipsam rem labore laborum inventore!
+            </p>
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control"  placeholder="search contact"  >
+                    </div>
+                             
+                    <div class="col-md-6">
+                        <input type="submit" class="btn btn-outline-dark" value="search" >
+                    </div> 
+                </div>                   
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- card design  -->
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card list-group-item-success">
+                <div class="card-body">
+                    <div class="row align-item-center ">
+                        <div class="col-sm-4">
+                            <img class="contact-img" src="https://www.wwe.com/f/styles/wwe_large/public/all/2019/10/RAW_06202016rf_1606--3d3997f53e6f3e9277cd5a67fbd8f31f.jpg" alt="user-image">
+                        </div>
+                        <div class="col-sm-7">
+                            <ul class="list-group">
+                                <li class="list-group-item">Name:
+                                    <span class="fw-bold">John Cena</span>
+                                </li>
+                                <li class="list-group-item">Email:
+                                    <span class="fw-bold">John.cena@gmail.com</span>
+                                </li>
+                                <li class="list-group-item">Mobile:
+                                    <span class="fw-bold">6666666666</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-1 d-flex flex-column justify-content-center align-items-center ">
+                            <a routerLink="/contacts/view/contactId" class="btn btn-warning btn-sm">View</a>
+                            <a routerLink="/contacts/edit/:contactId" class="btn btn-info btn-sm m-1 ">Edit</a>
+                            <a routerLink="/" class="btn btn-danger btn-sm ">Del</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

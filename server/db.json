@@ -1,0 +1,91 @@
+{
+    "contacts":[
+        {
+            "id":"1",
+            "name":"Random Guy",
+            "company":"Google",
+            "email":"randomguy@google.com",
+            "title":"SWE",
+            "mobile":"123456789",
+            "photo":"https://pics.me.me/random-guy-from-pakistan-this-is-omerica-37271320.png",
+            "groupId":"1234"
+        },
+        {
+            "id":"2",
+            "name":"Random Guy 2",
+            "company":"youtube",
+            "email":"randomguy@youtube.com",
+            "title":"BE",
+            "mobile":"1234564566677789",
+            "photo":"https://pics.me.me/random-guy-from-pakistan-this-is-omerica-37271320.png",
+            "groupId":"1234456"
+        },
+        {
+            "id":"3",
+            "name":"Random Guy 3",
+            "company":"Google",
+            "email":"randomguy@google.com",
+            "title":"FE",
+            "mobile":"1234563445789",
+            "photo":"https://pics.me.me/random-guy-from-pakistan-this-is-omerica-37271320.png",
+            "groupId":"12341222"
+        },
+        {
+            "id":"4",
+            "name":"Random Guy 4",
+            "company":"Google",
+            "email":"randomguy@google.com",
+            "title":"SWE",
+            "mobile":"1234567893333333333",
+            "photo":"https://pics.me.me/random-guy-from-pakistan-this-is-omerica-37271320.png",
+            "groupId":"12343333333333"
+        },
+        {
+            "id":"5",
+            "name":"Random Guy 5",
+            "company":"Google",
+            "email":"randomguy@google.com",
+            "title":"SWE",
+            "mobile":"123456789334444",
+            "photo":"https://pics.me.me/random-guy-from-pakistan-this-is-omerica-37271320.png",
+            "groupId":"1234444444444444"
+        },
+        {
+            "id":"6",
+            "name":"Random Guy 6",
+            "company":"Google",
+            "email":"randomguy@google.com",
+            "title":"SWE",
+            "mobile":"1234567891232",
+            "photo":"https://pics.me.me/random-guy-from-pakistan-this-is-omerica-37271320.png",
+            "groupId":"123467812"
+        }
+    ],
+    "groups":
+    [
+        {
+            "id":"1",
+            "name":"Angular"
+        },
+        {
+            "id":"2",
+            "name":"Svelte"
+        },
+        {
+            "id":"3",
+            "name":"Vue"
+        },
+        {
+            "id":"4",
+            "name":"React"
+        },
+        {
+            "id":"5",
+            "name":"jquery"
+        },
+        {
+            "id":"6",
+            "name":"java"
+        }
+    ]
+}
